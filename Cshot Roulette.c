@@ -37,7 +37,7 @@ void usedeshiP(int B[], int *index, int BN)
     }
     else
     {
-        *index==BN;
+        *index=BN;
         printf("No more bullets left! No one wins.\n");
         printf("please run again the programs this function does not work correctly");
     }
@@ -53,7 +53,7 @@ void usedeshiO(int B[], int *index, int BN, int *turn)
     }
     else
     {
-        *index==BN;
+        *index=BN;
         printf("No more bullets left! No one wins.\n");
     }
     *turn = 1;
